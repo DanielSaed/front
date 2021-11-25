@@ -1,0 +1,359 @@
+* {
+	margin: 0;
+	padding: 0;
+    
+    
+}
+body{
+    background-color: #43475c;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 40px;
+    color: #43475c;
+    text-align: center;
+    padding: 15px;
+}
+header {
+	height: 80px;
+	width: 100%;
+	z-index: 10;
+	text-transform: uppercase;
+	box-sizing: border-box;
+	box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+	border: 2px solid rgb(233, 232, 232);
+	box-shadow: .5px -2px 4px #000000;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+
+.btnCerrar {
+    font-weight: bold;
+    width: 200px;
+    background-color: #c43e3e;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: -118px;
+    margin-right: 15px;
+    float: right;
+    border-radius: 10px;
+  }
+
+  .btnSignin {
+    font-weight: bold;
+    width: 200px;
+    background-color: #a3c466;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: -118px;
+    margin-right: 250px;
+    float: right;
+    border-radius: 10px;
+  }
+
+  .btnAgregar {
+    font-weight: bold;
+    width: 200px;
+    background-color: #54bd34;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-right: 10px;
+    float:left;
+    border-radius: 10px;
+
+  }
+  .btnActualizar {
+    font-weight: bold;
+    width: 200px;
+    background-color: #b9c237;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-right: 10px;
+    float: left;
+    border-radius: 10px;
+
+  }
+  .btnBorrar {
+    font-weight: bold;
+    width: 200px;
+    background-color: #d1881a;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 600px;
+    margin-top: 50px;
+    margin-right: 10px;
+    float: left;
+    border-radius: 10px;
+
+  }
+  
+  .hora{
+    margin-top: 32px;
+    margin-left: 795px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #ffffff;
+    display:inline-block;
+    
+}
+  .clock {
+    position: absolute;
+    top: 12%;
+    left: 52.5%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #ffffff;
+    letter-spacing: 7px;
+
+}
+
+.f1{
+    color: rgb(0, 0, 0);
+    white-space: nowrap;
+    
+}
+
+.nombres1{
+    margin-top: 200px;
+}
+
+.nombres{
+    
+    
+    width: 256px;
+    height: 25px;
+    border: 4px;
+    text-align:left;
+	margin: 0px;
+    margin-left: 440px;
+    display:inline-block;
+    padding: 8px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+.ids{
+    
+    width: 107px;
+    height: 25px;
+    border: 2px;
+    text-align:left;
+	margin: 0px;
+    display:inline-block;
+    padding: 8px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+.telefonos{
+
+    width: 156px;
+    height: 25px;
+    border: 2px;
+    text-align:left;
+	margin: 0px;
+    display:inline-block;
+    padding: 8px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+.emails{
+    text-align: center;
+    width: 206px;
+    height: 25px;
+    border: 2px;
+    text-align:left;
+	margin: 0px;
+    display:inline-block;
+    padding: 8px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+.direccions{
+    text-align: center;
+    width: 215px;
+    height: 25px;
+    border: 2px;
+    text-align:left;
+	margin: 0px;
+    display:inline-block;
+    padding: 8px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.sname{
+    width: 250px;
+    height: 20px;
+    border: 4px;
+    text-align:left;
+	margin: 0px;
+    margin-left: 440px;
+    display:inline-block;
+    color: black;
+    background-color: rgb(130, 183, 219);
+    padding: 8px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    
+}
+
+.sid{
+    width: 100px;
+    height: 20px;
+    border: 4px;
+    text-align:left;
+	margin: 0px;
+    display:inline-block;
+    color: black;
+    background-color: rgb(130, 183, 219);
+    padding: 8px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+}
+.sphone{
+    width: 150px;
+    height: 20px;
+    border: 4px;
+    text-align:left;
+	margin: 0px;
+    display:inline-block;
+    color: black;
+    background-color: rgb(130, 183, 219);
+    padding: 8px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+}
+.semail{
+    width: 200px;
+    height: 20px;
+    border: 4px;
+    text-align:left;
+	margin: 0px;
+    display:inline-block;
+    color: black;
+    background-color: rgb(130, 183, 219);
+    padding: 8px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+}
+.sdirection{
+    width: 200px;
+    height: 20px;
+    border: 4px;
+    text-align:left;
+	margin: 0px;
+    display:inline-block;
+    color: black;
+    background-color: rgb(130, 183, 219);
+    padding: 8px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+}
+
+.spname{
+    width: 250px;
+    height: 20px;
+    border: 4px;
+    text-align:left;
+	margin: 0px;
+    margin-left: 440px;
+    display:inline-block;
+    color: black;
+    background-color: rgb(241, 237, 237);
+    padding: 8px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    
+}
+.spid{
+    
+    background-color: rgb(241, 237, 237);
+    width: 100px;
+    height: 20px;
+    border: 4px;
+    text-align:left;
+	margin: 0px;
+    display:inline-block;
+    padding: 8px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+}
+.spphone{
+    width: 150px;
+    height: 20px;
+    border: 4px;
+    text-align:left;
+	margin: 0px;
+    display:inline-block;
+    color: black;
+    background-color: rgb(241, 237, 237);
+    padding: 8px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+}
+.spemail{
+    width: 200px;
+    height: 20px;
+    border: 4px;
+    text-align:left;
+	margin: 0px;
+    display:inline-block;
+    color: black;
+    background-color: rgb(241, 237, 237);
+    padding: 8px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+}
+.spdirection{
+    width: 200px;
+    height: 20px;
+    border: 4px;
+    text-align:left;
+	margin: 0px;
+    display:inline-block;
+    color: black;
+    background-color: rgb(241, 237, 237);
+    padding: 8px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    
+}
